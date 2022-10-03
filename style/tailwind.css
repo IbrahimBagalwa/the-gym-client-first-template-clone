@@ -1,3 +1,97 @@
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
+@tailwind components;
+
+.color-primary {
+  color: #1d2130;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(53.94deg, #373fff 15.02%, #3acaf8 82.83%);
+  background-clip: text;
+  fill: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@layer base {
+  h1 {
+    @apply font-roboto-bold text-[56px] leading-[56.7px];
+  }
+  h2 {
+    @apply font-roboto-bold text-[48px] leading-[56.7px];
+  }
+  h3 {
+    @apply font-roboto-bold text-[24px] leading-[56.7px];
+  }
+
+  h4 {
+    @apply font-roboto-bold text-[24px];
+  }
+  h5 {
+    @apply font-roboto-bold text-[18px];
+  }
+  h6 {
+    @apply font-roboto-bold text-[16px];
+  }
+  p {
+    @apply font-roboto text-[16px];
+  }
+}
+
+@layer components {
+  .primary-btn {
+    @apply font-roboto-bold font-extrabold text-white bg-primary hover:bg-light-violet hover:text-primary transition-all duration-500 ease-in-out cursor-pointer w-[144px] h-[56px] flex justify-center items-center rounded-xsm text-paragraph;
+  }
+
+  .primary-btn--full-width {
+    @apply font-roboto-bold font-extrabold text-white bg-primary hover:bg-light-violet hover:text-primary transition-all duration-500 ease-in-out cursor-pointer w-full h-[56px] flex justify-center items-center rounded-xsm text-paragraph;
+  }
+
+  .primary-btn--fill-white {
+    @apply font-roboto-bold font-extrabold text-primary bg-white hover:bg-primary hover:text-white transition-all duration-500 ease-in-out cursor-pointer w-[144px] h-[56px] flex justify-center items-center rounded-xsm text-paragraph;
+  }
+
+  .primary-btn--outline {
+    @apply primary-btn--fill-white border-2 border-light-violet;
+  }
+
+  .gradient-paragraph {
+    @apply text-gradient;
+  }
+
+  .paragraph-large {
+    @apply text-[18px];
+  }
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('/assets/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'roboto-bold';
+  src: url('/assets/Roboto-Bold.ttf');
+}
+
+.bg-gradient {
+  position: absolute;
+  width: 524px;
+  height: 496px;
+  right: 566px;
+  top: 314px;
+  left: 100px;
+  transform: rotate(200deg);
+  border-radius: 100%;
+
+  background: radial-gradient(
+    483.9% 2719.65% at -49.5% -250%,
+    #d798e1 17.55%,
+    #9bffa5 27.56%,
+    #aed3ff 49.89%,
+    #c9d4ef 56.53%,
+    #cacffa 65.69%
+  );
+  filter: blur(200px);
+}
