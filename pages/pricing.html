@@ -13,7 +13,9 @@
         <div class="font-roboto-bold text-3xl">{finsweet</div>
 
         <ul class="flex gap-6 items-center">
-          <li class="color-primary font-roboto text-paragraph">Home</li>
+          <li class="color-primary font-roboto text-paragraph">
+            <a href="../index.html">Home</a>
+          </li>
           <li class="color-primary font-roboto text-paragraph">
             <a href="./product.html">Produt</a>
           </li>
@@ -30,46 +32,243 @@
           <li class="primary-btn">Free trial</li>
         </ul>
       </nav>
-      <div
-        class="w-full mx-auto grid grid-cols-2 justify-items-start mt-10 relative"
-      >
-        <div class="mt-32 space-y-2">
-          <h1>
-            Grow your Sales and<br />
-            Services
-          </h1>
-          <p class="text-primary mx-auto py-5">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor <br />
-            invidunt ut labore et dolore magna aliquyam erat.
-          </p>
-          <div class="flex gap-3">
-            <button class="primary-btn">Get Free trial</button>
-            <button class="primary-btn--outline">Get Free trial</button>
-          </div>
-        </div>
-
-        <div class="my-10 w-full">
-          <img
-            src="../assets/images/Dashboard-image.png"
-            alt="dashbord image"
-            class="w-[616px] h-[401px] ml-auto"
-          />
-          <img
-            src="../assets/images/Blur Gradient-product-header.png"
-            class="w-full h-[555px] absolute object-cover object-center blur-3xl -z-10 top-0 left-0 border border-red-500"
-          />
+    </header>
+    <section>
+      <div class="w-[1024px] mx-auto flex flex-col items-center mt-10 relative">
+        <div class="-z-20 blur-gradient"></div>
+        <h1 class="text-center">
+          Pricing plans that<br />
+          suit you
+        </h1>
+        <p class="text-primary w-[768px] text-center mx-auto py-5">
+          Lorem ipsum dolor sit amet, consectetur<br />
+          adipiscing elit, sed do eiusmod tempor.
+        </p>
+        <div
+          class="flex gap-3 bg-light-violet w-fit mx-auto h-[72px] p-[8px] rounded-sm mt-2"
+        >
+          <button class="primary-btn">Monthly</button>
+          <button class="font-bold font-roboto w-[144px]">Yearly</button>
         </div>
       </div>
-      <section class="flex justify-between items-center py-16">
-        <img src="../assets/images/Logo 1.png" alt="logo 1" />
-        <img src="../assets/images/Logo 2.png" alt="logo 1" />
-        <img src="../assets/images/Logo 3.png" alt="logo 1" />
-        <img src="../assets/images/Logo 4.png" alt="logo 1" />
-        <img src="../assets/images/Logo 5.png" alt="logo 1" />
-      </section>
-    </header>
-    <section>Pricing</section>
+    </section>
+
+    <section class="grid grid-cols-3 gap-5 px-20 py-10 relative">
+      <div class="-z-20 bg-gradient"></div>
+      <div class="bg-white py-6 rounded-3xl">
+        <div
+          class="flex gap-3 py-6 border-b border-b-gray-300 px-10 items-center"
+        >
+          <img
+            src="../assets/images/pricing-icon1.svg"
+            class="w-[54px] h-[54px]"
+          />
+          <div>
+            <p class="text-[36px] flex flex-col justify-start font-bold">
+              Regular
+            </p>
+            <p class="text-primary/80">For Limited Period</p>
+          </div>
+        </div>
+        <div class="py-10 px-10">
+          <ul class="flex flex-col gap-5">
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">Limited Projects</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">Regular Support Business</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">1 month Free Trial</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">3GB storage</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">Ads Preview</p>
+            </li>
+          </ul>
+        </div>
+        <p class="text-xs text-center text-primary/80">
+          Lorem ipsum dolor sit amet, consetetur<br />
+          sadipscing elitr.
+        </p>
+        <div class="flex flex-col justify-center items-center pt-10">
+          <p class="text-[36px] flex flex-col justify-center items-center">
+            <span class="font-bold">Free</span>
+            <span class="text-xs text-center text-primary/80"
+              >For Limited Period</span
+            >
+          </p>
+          <button class="primary-btn mt-6">Get Started</button>
+        </div>
+      </div>
+      <div class="py-6 rounded-3xl relative border-[4px] border-blue-500">
+        <img
+          src="../assets/images/pricing-select-bg.svg"
+          class="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover rounded-3xl -z-10"
+        />
+        <div
+          class="flex gap-3 py-6 border-b border-gray-300 px-10 items-center"
+        >
+          <img
+            src="../assets/images/pricng-icon2.svg"
+            class="w-[54px] h-[54px]"
+          />
+          <div>
+            <p class="text-[36px] flex flex-col justify-start font-bold">
+              Plantinum
+            </p>
+            <p class="text-primary/80">For the best results</p>
+          </div>
+        </div>
+        <div class="py-10 px-10">
+          <ul class="flex flex-col gap-5">
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">Limited Projects</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">Regular Support Business</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">1 month Free Trial</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">20GB storage</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">Ads Preview</p>
+            </li>
+          </ul>
+        </div>
+        <p class="text-xs text-center text-primary/80">
+          Lorem ipsum dolor sit amet, consetetur<br />
+          sadipscing elitr.
+        </p>
+        <div class="flex flex-col justify-center items-center pt-10">
+          <p class="text-[36px] flex flex-col justify-center items-center">
+            <span class="font-bold">$342</span>
+            <span class="text-xs text-center text-primary/80"
+              >For Limited Period</span
+            >
+          </p>
+          <button class="primary-btn mt-6">Get Started</button>
+        </div>
+      </div>
+      <div class="bg-white py-6 rounded-3xl">
+        <div
+          class="flex gap-3 py-6 border-b border-b-gray-300 px-10 items-center"
+        >
+          <img
+            src="../assets/images/pricing-icon1.svg"
+            class="w-[54px] h-[54px]"
+          />
+          <div>
+            <p class="text-[36px] flex flex-col justify-start font-bold">
+              Standard
+            </p>
+            <p class="text-primary/80">Most Popular</p>
+          </div>
+        </div>
+        <div class="py-10 px-10">
+          <ul class="flex flex-col gap-5">
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">Limited Projects</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">Regular Support Business</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">1 month Free Trial</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">10GB storage</p>
+            </li>
+            <li class="flex gap-2">
+              <img src="../assets/images/pricing-check-mark.svg" />
+              <p class="font-bold">Ads Preview</p>
+            </li>
+          </ul>
+        </div>
+        <p class="text-xs text-center text-primary/80">
+          Lorem ipsum dolor sit amet, consetetur<br />
+          sadipscing elitr.
+        </p>
+        <div class="flex flex-col justify-center items-center pt-10">
+          <p class="text-[36px] flex flex-col justify-center items-center">
+            <span class="font-bold">$234</span>
+            <span class="text-xs text-center text-primary/80"
+              >For Limited Period</span
+            >
+          </p>
+          <button class="primary-btn mt-6">Get Started</button>
+        </div>
+      </div>
+      <img
+        src="../assets/images/Blur Gradient-pricing.png"
+        class="absolute bottom-0 right-0 w-[900px] h-[900px] object-cover -z-10 blur-3xl"
+      />
+    </section>
+
+    <section
+      class="bg-light-violet grid grid-cols-2 mx-20 p-10 rounded-3xl my-20"
+    >
+      <div class="space-y-5">
+        <h2>
+          Frequestly Asked<br />
+          Questions
+        </h2>
+        <p class="text-primary/70">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed <br />
+          diam nonumy eirmod tempor invidunt.
+        </p>
+      </div>
+      <div class="flex flex-col gap-6">
+        <div class="bg-white p-8 rounded-3xl space-y-3">
+          <div class="flex justify-between items-center">
+            <h4>How do I grow my business?</h4>
+            <img src="../assets/images/Expander.svg" />
+          </div>
+          <p class="text-primary/70">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua.
+          </p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl space-y-3">
+          <div class="flex justify-between items-center">
+            <h4>Can I cancel my subscription?</h4>
+            <img src="../assets/images/Expander-plus.svg" />
+          </div>
+        </div>
+        <div class="bg-white p-8 rounded-3xl space-y-3">
+          <div class="flex justify-between items-center">
+            <h4>How do I contact the support?</h4>
+            <img src="../assets/images/Expander-plus.svg" />
+          </div>
+        </div>
+        <div class="bg-white p-8 rounded-3xl space-y-3">
+          <div class="flex justify-between items-center">
+            <h4>Is a credit card required?</h4>
+            <img src="../assets/images/Expander-plus.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="flex flex-col mt-20">
       <div
         class="flex flex-col justify-center items-center gap-9 relative pb-32"
