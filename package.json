@@ -4,7 +4,8 @@
   "description": "This is a solution to the Gym Traning. The Gym challenge help us to improve our coding skills by building realistic projects.\r In this exercise, you will combine BEM and tailwind. Try to use as much tailwindcss as you can. Use BEM only for custom CSS which are not available in tailwindcss. Do not use any JS frameworks like vite.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.17",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.4"
   }
 }
