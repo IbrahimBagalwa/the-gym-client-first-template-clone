@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![client-first-template - Homepage]()
+![client-first-template - Homepage](./assets/client-home.PNG)
 
 ### Links
 
