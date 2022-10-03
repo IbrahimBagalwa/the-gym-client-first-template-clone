@@ -27,10 +27,81 @@
           <li class="color-primary font-roboto text-paragraph">
             <a href="./contact.html">Contact</a>
           </li>
-          <li class="primary-btn">Free trial</li>
+          <li class="primary-btn"><a href="./blogpost.html">Free trial</a></li>
         </ul>
       </nav>
     </header>
+    <section class="relative">
+      <img
+        src="../assets/images/gradient-contact.svg"
+        class="absolute left-0 top-0 bottom-0 w-96 -z-10 blur-lg"
+      />
+      <h1 class="text-center">Get in touch with us</h1>
+      <section
+        class="bg-light-violet/60 grid grid-cols-2 gap-10 mx-20 p-16 rounded-3xl my-20"
+      >
+        <div class="flex flex-col justify-start gap-5">
+          <div>
+            <h4>Drop us a message</h4>
+            <p class="text-primary/80">
+              We will get back to you as soon as possible
+            </p>
+          </div>
+          <form class="flex flex-col justify-start gap-3">
+            <div class="flex gap-3">
+              <input
+                type="text"
+                placeholder="Full Name"
+                class="w-full h-16 px-5 rounded-lg font-roboto outline-none"
+              />
+              <input
+                type="text"
+                placeholder="Company Name"
+                class="w-full h-16 px-5 rounded-lg font-roboto outline-none"
+              />
+            </div>
+            <input
+              type="email"
+              placeholder="work Email"
+              class="w-full h-16 px-5 rounded-lg font-roboto outline-none"
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              class="w-full h-16 px-5 rounded-lg font-roboto outline-none"
+            />
+            <textarea
+              placeholder="message"
+              class="font-roboto p-5 max-h-36 h-36 rounded-lg resize-none outline-none"
+            ></textarea>
+          </form>
+          <button class="primary-btn--full-width">send</button>
+        </div>
+        <div class="flex flex-col w-fit mx-auto mt-20 gap-5">
+          <div class="flex items-center gap-6">
+            <img src="../assets/images/phone-icon.svg" />
+            <div class="flex flex-col items-start">
+              <h4>+ 1800 145 276</h4>
+              <p class="text-primary/80">Free support</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-6">
+            <img src="../assets/images/send-icon.svg" />
+            <div class="flex flex-col items-start">
+              <h4>finsweet@gmail.com</h4>
+              <p class="text-primary/80">Help Email support</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-6">
+            <img src="../assets/images/email.svg" />
+            <div class="flex flex-col items-start">
+              <h4>sales@finsweet.com</h4>
+              <p class="text-primary/80">Sales Enquiry</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
 
     <section class="flex flex-col mt-20">
       <div
@@ -47,7 +118,7 @@
         <button class="primary-btn">View Pricing</button>
 
         <img
-          src="./assets/images/BlurGradient-footer.png"
+          src="../assets/images/gradient-footer.png"
           class="absolute bottom-0 w-full h-full -z-10 blur-3xl -mb-16"
         />
       </div>
