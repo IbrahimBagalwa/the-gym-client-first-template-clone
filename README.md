@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [client-first-template]()
+- Live Site URL: [client-first-template](https://warm-florentine-bd86d2.netlify.app/)
 
 ## My process
 
