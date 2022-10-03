@@ -40,20 +40,20 @@
 }
 
 @layer components {
-  .primary-btn {
+  .btn {
     @apply font-roboto-bold font-extrabold text-white bg-primary hover:bg-light-violet hover:text-primary transition-all duration-500 ease-in-out cursor-pointer w-[144px] h-[56px] flex justify-center items-center rounded-xsm text-paragraph;
   }
 
-  .primary-btn--full-width {
+  .btn--full {
     @apply font-roboto-bold font-extrabold text-white bg-primary hover:bg-light-violet hover:text-primary transition-all duration-500 ease-in-out cursor-pointer w-full h-[56px] flex justify-center items-center rounded-xsm text-paragraph;
   }
 
-  .primary-btn--fill-white {
+  .btn--white {
     @apply font-roboto-bold font-extrabold text-primary bg-white hover:bg-primary hover:text-white transition-all duration-500 ease-in-out cursor-pointer w-[144px] h-[56px] flex justify-center items-center rounded-xsm text-paragraph;
   }
 
-  .primary-btn--outline {
-    @apply primary-btn--fill-white border-2 border-light-violet;
+  .btn--outline {
+    @apply btn--white border-2 border-light-violet;
   }
 
   .gradient-paragraph {
