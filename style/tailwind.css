@@ -73,6 +73,9 @@
   .header-container__inputs {
     @apply flex gap-3 bg-white w-[576px] mx-auto h-[72px] p-[8px] rounded-sm mt-8;
   }
+  .header-container__hero-title {
+    @apply text-center;
+  }
   .header-container__chart {
     @apply my-10 w-full;
   }
@@ -102,28 +105,28 @@
   }
   /* header container style end */
   /* high-qualitity section start */
-  .high-quality {
+  .quality {
     @apply px-20 mt-20;
   }
-  .high-quality__subtitle {
+  .quality__subtitle {
     @apply text-heading-md font-roboto font-bold text-gradient text-center;
   }
-  .high-quality__title {
+  .quality__title {
     @apply text-heading-xl font-extrabold font-roboto-bold text-center py-8;
   }
-  .high-quality__card-container {
+  .quality__card-container {
     @apply flex bg-light-violet/60 px-[66px] py-[64px] items-center justify-between rounded-[24px] my-10;
   }
-  .high-quality__card {
+  .quality__card {
     @apply flex flex-col gap-8;
   }
-  .high-quality__card-img {
+  .quality__card-img {
     @apply w-12 h-12;
   }
-  .high-quality__card-title {
+  .quality__card-title {
     @apply text-heading-2md font-roboto font-extrabold;
   }
-  .high-quality__card-description {
+  .quality__card-description {
     @apply text-primary/80 font-roboto;
   }
   .work-with-us__left-content {
@@ -294,7 +297,7 @@
   .footer-container__trust-us {
     @apply flex flex-col justify-center items-center gap-9 relative pb-32;
   }
-  .footer-container__trust-us-title {
+  .footer-container__title {
     @apply text-center leading-[60px];
   }
   .footer-container__trust-us-bg-gradient {
@@ -367,7 +370,7 @@
   }
 
   .btn--outline,
-  .header-container__btn-outline {
+  .header-container__btn--outline {
     @apply btn--white border-2 border-light-violet;
   }
   /* btn style  end */
@@ -391,7 +394,8 @@
   src: url('/assets/Roboto-Bold.ttf');
 }
 
-.bg-gradient {
+.bg-gradient,
+.header-container__background--bg-gradient {
   position: absolute;
   width: 524px;
   height: 496px;
