@@ -16,6 +16,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.bg-gradient {
+  background: radial-gradient(
+    483.9% 2719.65% at -49.5% -250%,
+    #d798e1 17.55%,
+    #9bffa5 27.56%,
+    #aed3ff 49.89%,
+    #c9d4ef 56.53%,
+    #cacffa 65.69%
+  );
+  filter: blur(200px);
+}
 
 @layer base {
   h1 {
@@ -64,6 +75,9 @@
   }
   .header-container__background {
     @apply -z-20;
+  }
+  .header-container__background--bg-gradient {
+    @apply absolute w-[524px] h-[496px] right-[566px] top-[314px] left-[100px] transform rotate-[200deg] rounded-full bg-gradient;
   }
   .header__paragraph,
   .header-container__paragraph {
@@ -392,25 +406,4 @@
 @font-face {
   font-family: 'roboto-bold';
   src: url('/assets/Roboto-Bold.ttf');
-}
-
-.bg-gradient,
-.header-container__background--bg-gradient {
-  position: absolute;
-  width: 524px;
-  height: 496px;
-  right: 566px;
-  top: 314px;
-  left: 100px;
-  transform: rotate(200deg);
-  border-radius: 100%;
-  background: radial-gradient(
-    483.9% 2719.65% at -49.5% -250%,
-    #d798e1 17.55%,
-    #9bffa5 27.56%,
-    #aed3ff 49.89%,
-    #c9d4ef 56.53%,
-    #cacffa 65.69%
-  );
-  filter: blur(200px);
 }
